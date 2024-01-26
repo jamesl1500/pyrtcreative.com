@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+// Styles
+import '../src/static/styles.scss';
+
 // Pages
 import Index from './pages/Index';
 import About from './pages/About';
