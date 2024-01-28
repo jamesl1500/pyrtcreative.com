@@ -7,7 +7,7 @@ export default function Header() {
             <div className='row header-row'>
                 <div className='col-lg-3 col-md-3 col-sm-3 col-xs-12 header-branding'>
                     <a href='/'>
-                        <h3>Pyrt <span className='cursive'>Creative</span></h3>
+                        <h3>Pyrt<span className='cursive'>Creative</span></h3>
                     </a>
                 </div>
                 <div className='col-lg-9 col-md-9 col-sm-9 col-xs-12 header-nav'>
