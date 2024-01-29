@@ -14,8 +14,8 @@ export default function Footer() {
                 <div className='footer-nav'>
                     <ul>
                         <li><a href='/'>Home</a></li>
-                        <li><a href='/about'>About</a></li>
-                        <li><a href='/services'>Services</a></li>
+                        <li><a href='#about'>About</a></li>
+                        <li><a href='#about'>Services</a></li>
                         <li><a href='tel:4402134860'>Contact</a></li>
                     </ul>
                 </div>

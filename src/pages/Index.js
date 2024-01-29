@@ -25,7 +25,7 @@ export default function Index() {
 
             </div>
         </div>
-        <div className='index-about-section'>
+        <div className='index-about-section' id='about'>
             <div className='index-about-section-inner container'>
                 <div className='index-about-section-inner-top'>
                     <h2>About Us</h2>

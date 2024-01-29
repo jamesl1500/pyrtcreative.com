@@ -13,8 +13,8 @@ export default function Header() {
                 <div className='col-lg-9 col-md-9 col-sm-9 col-xs-12 header-nav'>
                     <ul>
                         <li><a href='/'>Home</a></li>
-                        <li><a href='/about'>About</a></li>
-                        <li><a href='/services'>Services</a></li>
+                        <li><a href='#about'>About</a></li>
+                        <li><a href='#above'>Services</a></li>
                         <li><a href='tel:4402134860'>Contact</a></li>
                     </ul>
                 </div>
