@@ -83,6 +83,57 @@
 /**
 * Footer
 **/
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 35px;
+    border-top: 1px solid #fff;
+
+    .footer-inner{
+
+        .footer-branding{
+
+            a{
+                text-decoration: none;
+
+                h3{
+                    color: white;
+                    margin: 0;
+                    text-transform: uppercase;
+                    font-family: 'Libre Caslon Text', serif;
+
+                    span{
+                        font-family: 'Libre Caslon Text', serif;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+
+        .footer-nav{
+            padding-top: 5px;
+
+            ul{
+                text-align: right;
+
+                li{
+                    display: inline-block;
+                    margin-left: 20px;
+
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                    }
+                
+                }
+            }
+        }
+    }
+}
 
 /** 
 * Page: Index

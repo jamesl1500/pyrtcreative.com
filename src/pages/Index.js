@@ -15,7 +15,7 @@ export default function Index() {
                         <p>Graphic design &middot; Web Development &middot; Software Development &middot; Creative Design</p>
                     </div>
                     <div className='index-top-section-inner-bottom'>
-                        <a href='#' className='btn btn-primary'>Get in touch</a>
+                        <a href='tel:4402134860' className='btn btn-primary'>Get in touch</a>
                     </div>
                 </div>
             </div>
