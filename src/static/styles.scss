@@ -24,15 +24,18 @@
 * Header
 **/
 .header{
+    background: #000;
     color: #fff;
     padding: 30px;
     padding-left: 0px;
     padding-right: 0px;
+    padding-top: 35px;
 
     position: fixed;
     top: 0px;
     right: 0px;
     left: 0px;
+    z-index: 100001;
 
     .header-inner{
 
@@ -45,8 +48,10 @@
                     color: white;
                     margin: 0;
                     text-transform: uppercase;
+                    font-family: 'Libre Caslon Text', serif;
 
                     span{
+                        font-family: 'Libre Caslon Text', serif;
                         font-style: italic;
                     }
                 }
@@ -83,11 +88,10 @@
 * Page: Index
 **/
 .index-top-section{
-    background-image: url(https://images.unsplash.com/photo-1510987836583-e3fb9586c7b3?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-size: cover;
+    background: #000;
 
     width: 100%;
-    height: 100vh;
+    height: 600px;
 
     .index-top-section-cover{
         background: rgba(0,0,0,.5);
@@ -97,16 +101,14 @@
         .index-top-section-inner{
 
             // Verticle and horizontal centering
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            position: relative;
+            top: 160px;
 
             .index-top-section-inner-top{
 
                 h1{
                     color: white;
-                    font-size: 3rem;
+                    font-size: 6rem;
                     font-family: Source Code Pro, monospace;
                     margin: 0;
                     text-transform: uppercase;
@@ -114,7 +116,21 @@
 
                 h2{
                     color: white;
+                    font-size: 4.5rem;
+                    font-weight: 400;
+                    margin: 0;
+                    text-transform: uppercase;
+
+                    padding-top: 25px;
+                    padding-bottom: 25px;
+
+                    font-family: Source Code Pro, monospace;
+                }
+
+                p{
+                    color: white;
                     font-size: 1.5rem;
+                    font-weight: 400;
                     margin: 0;
                     text-transform: uppercase;
 
@@ -141,6 +157,136 @@
             }
         }
     }
+}
+
+.index-middle-banner{
+    background-image: url(https://images.unsplash.com/photo-1510987836583-e3fb9586c7b3?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 400px;
+
+    .index-middle-banner-inner{
+        background: rgba(0,0,0,.5);
+        height: 100%;
+        width: 100%;
+
+        .index-middle-banner-inner-top{
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            h1{
+                color: white;
+                font-size: 3rem;
+                font-family: Source Code Pro, monospace;
+                margin: 0;
+                text-transform: uppercase;
+            }
+
+            h2{
+                color: white;
+                font-size: 1.5rem;
+                margin: 0;
+                text-transform: uppercase;
+
+                padding-top: 25px;
+                padding-bottom: 25px;
+
+                font-family: Source Code Pro, monospace;
+            }
+        }
+
+        .index-middle-banner-inner-bottom{
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            a{
+                background-color: #fff;
+                border-radius: 5px;
+                color: #000;
+                font-size: 1.1rem;
+                font-family: Source Code Pro, monospace;
+                padding: 10px 20px;
+                text-decoration: none;
+                text-transform: uppercase;
+                border-color: white;
+            }
+        }
+    
+    }
+}
+
+.index-about-section{
+    background: #000;
+
+    width: 100%;
+    height: 600px;
+
+    .index-about-section-inner{
+        height: 100%;
+        width: 100%;
+
+        .index-about-section-inner-top{
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            h2{
+                color: white;
+                font-size: 3rem;
+                font-family: Source Code Pro, monospace;
+                margin: 0;
+                text-transform: uppercase;
+            }
+
+            p{
+                color: white;
+                font-size: 1.5rem;
+                margin: 0;
+                text-transform: uppercase;
+
+                padding-top: 25px;
+                padding-bottom: 25px;
+
+                font-family: Source Code Pro, monospace;
+            }
+        }
+
+        .index-about-section-inner-bottom{
+            padding-bottom: 50px;
+
+            .row{
+
+                .index-about-section-inner-bottom-item{
+
+                    .index-about-section-inner-bottom-item-inner{
+
+                        h3{
+                            color: white;
+                            font-size: 1.5rem;
+                            font-family: Source Code Pro, monospace;
+                            margin: 0;
+                            text-transform: uppercase;
+                        }
+
+                        p{
+                            color: white;
+                            font-size: 1rem;
+                            margin: 0;
+                            text-transform: uppercase;
+
+                            padding-top: 25px;
+                            padding-bottom: 25px;
+
+                            font-family: Source Code Pro, monospace;
+                        }
+                    }
+                }
+            }
+        }
+    
+    }
+
 }
 
 /** 
