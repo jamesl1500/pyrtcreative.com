@@ -221,7 +221,7 @@
     background: #000;
 
     width: 100%;
-    height: 600px;
+    border-bottom: 1px solid white;
 
     .index-about-section-inner{
         height: 100%;
@@ -286,7 +286,76 @@
         }
     
     }
+}
 
+.index-contact-us-section{
+    background: #000;
+
+    width: 100%;
+
+    .index-contact-us-section-inner{
+        height: 100%;
+        width: 100%;
+
+        .index-contact-us-section-inner-top{
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            h2{
+                color: white;
+                font-size: 3rem;
+                font-family: Source Code Pro, monospace;
+                margin: 0;
+                text-transform: uppercase;
+            }
+
+            p{
+                color: white;
+                font-size: 1.5rem;
+                margin: 0;
+                text-transform: uppercase;
+
+                padding-top: 25px;
+                padding-bottom: 25px;
+
+                font-family: Source Code Pro, monospace;
+            }
+        }
+
+        .index-contact-us-section-inner-bottom{
+            padding-bottom: 50px;
+
+            .row{
+
+                .index-contact-us-section-inner-bottom-item{
+
+                    .index-contact-us-section-inner-bottom-item-inner{
+
+                        h3{
+                            color: white;
+                            font-size: 1.5rem;
+                            font-family: Source Code Pro, monospace;
+                            margin: 0;
+                            text-transform: uppercase;
+                        }
+
+                        p{
+                            color: white;
+                            font-size: 1rem;
+                            margin: 0;
+                            text-transform: uppercase;
+
+                            padding-top: 25px;
+                            padding-bottom: 25px;
+
+                            font-family: Source Code Pro, monospace;
+                        }
+                    }
+                }
+            }
+        }
+    
+    }   
 }
 
 /** 

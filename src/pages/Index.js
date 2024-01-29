@@ -55,14 +55,33 @@ export default function Index() {
                 </div>
             </div>
         </div>
-        <div className='indexd-contact-us-section'>
+        <div className='index-contact-us-section'>
             <div className='index-contact-us-section-inner container'>
                 <div className='index-contact-us-section-inner-top'>
                     <h2>Contact Us</h2>
                     <p>Get in touch with us today to discuss your project.</p>
                 </div>
                 <div className='index-contact-us-section-inner-bottom'>
-                    <a href='#' className='btn btn-primary'>Get in touch</a>
+                    <div className='row'>
+                        <div className='col-lg-4 col-md-4 col-sm-4 col-xs-12 index-contact-us-section-inner-bottom-item'>
+                            <div className='index-contact-us-section-inner-bottom-item-inner'>
+                                <h3>Phone</h3>
+                                <p>440-213-4860</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 col-md-4 col-sm-4 col-xs-12 index-contact-us-section-inner-bottom-item'>
+                            <div className='index-contact-us-section-inner-bottom-item-inner'>
+                                <h3>Email</h3>
+                                <p>hello@pyrtcreative.com</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 col-md-4 col-sm-4 col-xs-12 index-contact-us-section-inner-bottom-item'>
+                            <div className='index-contact-us-section-inner-bottom-item-inner'>
+                                <h3>Address</h3>
+                                <p>Ohio, US</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
