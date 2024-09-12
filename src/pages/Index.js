@@ -72,7 +72,7 @@ export default function Index() {
                         <div className='col-lg-4 col-md-4 col-sm-4 col-xs-12 index-contact-us-section-inner-bottom-item'>
                             <div className='index-contact-us-section-inner-bottom-item-inner'>
                                 <h3>Email</h3>
-                                <p>hello@pyrtcreative.com</p>
+                                <p>james@pyrtcreative.com</p>
                             </div>
                         </div>
                         <div className='col-lg-4 col-md-4 col-sm-4 col-xs-12 index-contact-us-section-inner-bottom-item'>
