@@ -29,7 +29,7 @@ export default function Index() {
             <div className='index-about-section-inner container'>
                 <div className='index-about-section-inner-top'>
                     <h2>About Us</h2>
-                    <p>Pyrt Creative is a creative design studio based in Ohio, US. We specialise in graphic design, web development, software development and creative design.</p>
+                    <p>Pyrt Creative is a creative design studio based in Ohio, US. We specialize in graphic design, web development, software development and creative design.</p>
                 </div>
                 <div className='index-about-section-inner-bottom'>
                     <div className='row'>
